@@ -1,0 +1,38 @@
+1. Create and Write to a File
+- Create a new file named students.txt.
+- Write a list of at least 5 student names inside it (one per line).
+
+2. Append Data to the File
+- Add 2 more student names at the end of the same file without overwriting the existing content.
+
+3. Read the File
+- Read the contents of students.txt.
+- Print each student's name on a new line in the console.
+
+4. Rename the File
+- Rename students.txt to web2.txt.
+
+5. Copy the File
+- Make a copy of web2.txt and name it web2-advance.txt.
+
+6. Delete a File
+- Delete classB.txt from the folder.
+
+7. Move a File
+- Create a folder called backup.
+- Move (not copy) web2.txt into the backup folder.
+
+8. JSON File Manager
+- Create a users.json file that stores an array of user objects (id, name, email).
+- Write a function to:
+	-> Add a new user
+	-> Update a user's email
+	-> Delete a user by id
+	-> Read all users
+
+9. Directory Watcher
+- Create a script that watches a folder for changes (add/edit/delete files).
+- Whenever a change happens, log a message with:
+	-> Event type (added, changed, deleted)
+	-> File name
+	-> Timestamp

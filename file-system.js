@@ -125,22 +125,19 @@ try{
 
 
 
-fs.mkdir("backup", (err) => {
+try{
 
-  if(err){
-
-    console.log("Error creating folder");
-
-    return
-    
-  }
-
+  fs.mkdirSync("backup");
   console.log("--------------7------------------");
-
   console.log("Folder created successfully");
-  
 
-})
+} catch (err) {
+
+      console.log("Error creating folder");
+
+  
+}
+
 
 
 try{

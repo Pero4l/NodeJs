@@ -10,13 +10,18 @@
     "email": "test@gmail.com"
   },
   {
-    "id": 2,
-    "name": "Bob",
-    "email": "bob@example.com"
+    "id": 4,
+    "name": "NewKing",
+    "email": "king@example.com"
   },
   {
-    "id": 3,
-    "name": "Peter",
-    "email": "test@gmail.com"
+    "id": 5,
+    "name": "Nanbam",
+    "email": "bam@example.com"
+  },
+  {
+    "id": 6,
+    "name": "Promise",
+    "email": "Promotex@gmail.com"
   }
 ]

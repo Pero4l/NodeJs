@@ -1,7 +1,7 @@
 
 const fs = require("fs");
 
-const FILE_PATH = "./users.json";
+const FILE_PATH = "./users.json"; 
 
 
 function readUsers() {
